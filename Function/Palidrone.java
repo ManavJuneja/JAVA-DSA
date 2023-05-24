@@ -3,7 +3,7 @@ package Function;
 import java.util.Scanner;
 
 public class Palidrone {
-    public static void reverse(int n){
+    public static boolean reverse(int n){
         while(n>0){
             int lastdigit=n%10;
             System.out.print(lastdigit);
@@ -12,7 +12,8 @@ public class Palidrone {
         }
     }
     public static void CheckPalidrone(int n){
-        if(reverse(n);)
+        boolean reverse;
+        if(reverse(n);
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
