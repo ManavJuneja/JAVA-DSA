@@ -1,6 +1,6 @@
-package OOPS.Constructor;
+package OOPS;
 
-public class basic {
+public class Constructor {
     public static void main(String[] args) {
         Student s1=new Student("manav");
         System.out.println(s1.name);
