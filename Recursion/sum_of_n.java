@@ -12,6 +12,7 @@ public class sum_of_n {
     
     public static void main(String[] args) {
         int n=5;
+        System.out.println("Sum is");
         System.out.println(calsum(n));
 
     }

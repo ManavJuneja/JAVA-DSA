@@ -11,6 +11,8 @@ public class print_n_to_one {
     }
     public static void main(String[] args) {
         int n=10;
+        System.out.println("Answer is");
+        
         printdec(n);
     }
 }
