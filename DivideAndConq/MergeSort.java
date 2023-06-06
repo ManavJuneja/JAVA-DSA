@@ -1,4 +1,4 @@
-package Recursion;
+package DivideAndConq;
 
 public class MergeSort {
     public static void mergesort(int arr[],int si,int ei){
