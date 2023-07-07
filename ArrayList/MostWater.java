@@ -23,6 +23,6 @@ public class MostWater {
         height.add(8);
         height.add(3);
         height.add(7);
-        System.out.println(storeWater(height));
+        System.out.println(storeWater(height)); 
     }
 }
