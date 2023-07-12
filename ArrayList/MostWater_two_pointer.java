@@ -18,7 +18,7 @@ public class MostWater_two_pointer {
             lp++;
            }
            else{
-            rp--;
+            rp--; 
            }
         }
         return maxWater;

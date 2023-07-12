@@ -8,7 +8,7 @@ public class multidimentionlist {
         list.add(1);
         list.add(2);
         mainlist.add(list);
-        ArrayList<Integer>list2=new ArrayList<>();
+        ArrayList<Integer>list2=new ArrayList<>(); 
         list.add(4);
         list.add(5);
         list.add(8);
