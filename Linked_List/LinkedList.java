@@ -205,5 +205,8 @@ public class LinkedList {
 
 
     }
+    public Node mergeSort(Node head2) {
+        return null;
+    }
    
 }
