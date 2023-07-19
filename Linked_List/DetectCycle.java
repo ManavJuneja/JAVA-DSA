@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Linked_List;
 
 public class DetectCycle {
@@ -34,3 +35,41 @@ public class DetectCycle {
 
     }
 }
+=======
+package Linked_List;
+
+public class DetectCycle {
+    public static class Node{
+         int data;
+        Node next;
+        public Node(int data){
+            this.data=data;
+            this.next=null;
+        }
+
+    }
+    public static boolean isCycle(){
+        Node slow=head;
+        Node fast=head;
+
+        while(fast != null&&fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+            if(fast!=null&&fast.next!=null){
+                return true;//cycle exist
+            }
+              
+        }
+        return false;//cycle doesn't exist
+    }
+    public static Node head;
+    public static void main(String[] args) {
+        head=new Node(1);
+        head.next=new Node(2);
+        head.next.next=new Node(3);
+        // head.next.next.next=head;
+        System.out.println(isCycle());
+
+    }
+}
+>>>>>>> 75795f850c1fbd95e5f0815d62d1ff8aba8a9c27
