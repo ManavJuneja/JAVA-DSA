@@ -1,4 +1,4 @@
-
+package Linked_List;
 
 public class DetectCycle {
     public static class Node{

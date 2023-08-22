@@ -1,5 +1,4 @@
 package Linked_List;
-
 public class Zig_ZagLinkedList {
     public static class Node{
         int data;
